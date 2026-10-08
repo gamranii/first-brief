@@ -1,0 +1,48 @@
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.serchinglogo{
+    border-radius:10px ;
+    border-color: white;
+    background-color: #FFFFFF;
+    border: 0px;
+
+}
+.inscription{
+    border-radius: 5px;
+    border: 0px;
+    background-color: blue;
+    color: white;
+    width: 124px;
+    height: 35px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    gap:40px;
+}
+.acc{
+    text-decoration: underline;
+    color: blue;
+}
+.hero img{
+    float: right;
+
+}
+.hero{
+    color: white;
+    background-color : #08111D;
+}
+.hero2 {
+    height: 461px;
+}
+.life{
+    color: #034BFF;
+}
+.tirer{
+    color: #C7F64A;
+}
