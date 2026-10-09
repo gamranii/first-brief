@@ -9,9 +9,9 @@ header{
     border: 0px;
 
 }
-.inscription{
+.inscriptionButton{
     border-radius: 5px;
-    border: 0px;
+    padding: 3px ;
     background-color: blue;
     color: white;
     width: 124px;
@@ -25,24 +25,68 @@ nav{
     display: flex;
     gap:40px;
 }
-.acc{
+.selected-link{
     text-decoration: underline;
     color: blue;
 }
 .hero img{
     float: right;
-
 }
 .hero{
     color: white;
     background-color : #08111D;
+
 }
 .hero2 {
     height: 461px;
+    font-size: 20px;
+    border: 10px;
 }
-.life{
+.h1blue{
     color: #034BFF;
+    justify-content: space-between;
 }
-.tirer{
+.simbole{
     color: #C7F64A;
 }
+.hero button{
+    color: white;
+    background-color: #034BFF;
+    border: 0px;
+    border-radius: 5px;
+    width: 184px;
+    height: 42px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    
+}
+.cercles{
+    display: flex;
+}
+.cercle1-3{
+    color: #08111D;
+    background-color: #B8C9CF;
+    border-radius:50%;
+    padding: 8px 13px;
+    
+}
+.cercle2-4{
+    color: #08111D;
+    background-color: #D7C3B6;
+    border-radius: 50%;
+    padding: 8px 13px;
+}
+.cecles{
+    display: flex;
+}
+
+.hero2{
+    margin: 15px;
+}
+.statistique{
+    background-color: #C7F64A;
+    margin: -1px;;
+    display: flex;
+    
+}
+
