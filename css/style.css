@@ -7,7 +7,6 @@ header{
     border-color: white;
     background-color: #FFFFFF;
     border: 0px;
-
 }
 .inscriptionButton{
     border-radius: 5px;
@@ -84,9 +83,25 @@ nav{
     margin: 15px;
 }
 .statistique{
-    background-color: #C7F64A;
-    margin: -1px;;
     display: flex;
-    
+    justify-content: space-between;
+}
+.statistique h2{
+    color: #034BFF;
+}
+.présentation-du-campus{
+    background-color: #F4F7FC;
+    display: flex;
+    justify-content: space-between;
+}
+.campuss{
+    display: flex;
+    justify-content: space-between;
+}
+.exploration-camp{
+    flex-direction: column;
+}
+.parcours{
+    background-color: #D7C3B6;
 }
 
