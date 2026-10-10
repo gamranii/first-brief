@@ -1,0 +1,30 @@
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.serchinglogo{
+    border-radius:10px ;
+    border-color: white;
+    background-color: #FFFFFF;
+    border: 0px;
+}
+.inscriptionButton{
+    border-radius: 5px;
+    padding: 3px ;
+    background-color: blue;
+    color: white;
+    width: 124px;
+    height: 35px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    gap:40px;
+}
+.selected-link{
+    text-decoration: underline;
+    color: blue;
+}
